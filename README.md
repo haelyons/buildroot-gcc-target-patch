@@ -16,9 +16,9 @@ Including a compiler in the distribution enlarges the attack surface. Each addit
 ### Direct Apply
 Straightforward, clone the patch at the root of your Buildroot and apply. Creates a dirty Buildroot git configuration 
 ```
-cd ~/my_distro/buildroot # Navigate to the root of your main Buildroot tree
-git clone https://github.com/haelyons/gcc-target-package.gitv # Clone patch
-git apply gcc-target-2022-08-1.patch # Apply patch
+cd ~/my_distro/buildroot
+git clone https://github.com/haelyons/gcc-target-package.git
+git apply gcc-target-2022-08-1.patch
 ```
 
 ### Run as Buildroot package (maintain clean Buildroot config) [WIP]
